@@ -4,7 +4,7 @@ This guide describes how to add slider(carousel) to https://www.coinmarketplus.c
 
 ## Prerequisites
 ### Step 1
-Download index.html document from the web page and save it to the empty folder
+Download index.html document from the web page and save it to the empty folder.
 ![Alt text](/doc/prerequisites_step1.png?raw=true)
 ### Step 2
 In the root directory of our project create two more folders such as `fonts` and `images`.
@@ -20,7 +20,7 @@ Download the .ttf file of the Open Sans regular font using https://fonts.google.
 ### Step 1
 Open the index.html file
 ### Step 2
-Find the `style` tag in the head and add the following code there, which will define visual appearance of the title and slider.
+Find `<style>` tag under `<head>` and add the following code there to define visual appearance of the title and slider.
 ```
 		@font-face {
 			font-family: 'Open Sans';
@@ -98,10 +98,10 @@ Find the `style` tag in the head and add the following code there, which will de
 ```
 ![Alt text](/doc/adding_code_step2.png?raw=true)
 ### Step 3
-Find the `a` tag inserted in `h1` tag that has class - `Live-Token` and change the title of your article. 
+Find the `<a>` tag inserted in `<h1>` tag that has class - `Live-Token` and change the title of your article. 
 ![Alt text](/doc/adding_code_step3.png?raw=true)
 ### Step 4
-Right before `h1` tag with the class name "Live-Token" add the following html code that will represent slider.
+Right before `<h1>` tag with the class name "Live-Token" add the following html code that will represent slider.
 ```
 	<div class="slideshow-container">
         	<div class="mySlides fades" >
@@ -129,7 +129,7 @@ Right before `h1` tag with the class name "Live-Token" add the following html co
 ```
 ![Alt text](/doc/adding_code_step4.png?raw=true)
 ### Step 5
-Finnaly, right before `body` tag closes add the following script tag that will describe slider behaviour 
+Finnaly, right before `<body>` tag closes add the following script tag that will describe slider behaviour. 
 ```
 <script>
 	var slideIndex = 1;
