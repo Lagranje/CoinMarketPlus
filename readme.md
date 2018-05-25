@@ -13,12 +13,12 @@ In the root directory of our project create two more folders such as `fonts` and
 Add four pictures in `images` directory, that you are going to use to create slider.
 ![Alt text](/doc/prerequisites_step3.png?raw=true)
 ### Step 4
-Download the .ttf file of the Open Sans regular font using https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans and save it to the `fonts` directory
+Download the .ttf file of the Open Sans regular font using https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans and save it to the `fonts` directory.
 ![Alt text](/doc/prerequisites_step4.1.png?raw=true)
 ![Alt text](/doc/prerequisites_step4.2.png?raw=true)
-## Adding code
+## Add slider(carousel) to the html page
 ### Step 1
-Open the index.html file
+Open the index.html file.
 ### Step 2
 Find `<style>` tag under `<head>` and add the following code there to define visual appearance of the title and slider.
 ```
@@ -163,8 +163,3 @@ Finnaly, right before `<body>` tag closes add the following script tag that will
 </script>
 ```
 ![Alt text](/doc/adding_code_step5.png?raw=true)
-## Finnaly
-### Step 1
-Create new repository on github.
-### Step 2
-Push your project.
