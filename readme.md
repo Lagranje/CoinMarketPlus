@@ -20,7 +20,7 @@ Download the .ttf file of the Open Sans regular font using https://fonts.google.
 ### Step 1
 Open the index.html file.
 ### Step 2
-Find `<style>` tag under `<head>` and add the following code there to define visual appearance of the title and slider.
+Find `head style` and add the following code there to define visual appearance of the title and slider.
 ```
 		@font-face {
 			font-family: 'Open Sans';
@@ -98,10 +98,10 @@ Find `<style>` tag under `<head>` and add the following code there to define vis
 ```
 ![Alt text](/doc/adding_code_step2.png?raw=true)
 ### Step 3
-Find the `<a>` tag inserted in `<h1>` tag that has class - `Live-Token` and change the title of your article. 
+Find element `h1.Live-Token a` and change the title of your article. 
 ![Alt text](/doc/adding_code_step3.png?raw=true)
 ### Step 4
-Right before `<h1>` tag with the class name "Live-Token" add the following html code that will represent slider.
+Right before `h1.Live-Token` add the following html code that will represent slider.
 ```
 	<div class="slideshow-container">
         	<div class="mySlides fades" >
